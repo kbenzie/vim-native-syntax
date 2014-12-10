@@ -1,7 +1,16 @@
 " Comment NOTE highlights
 syn keyword cNote contained NOTE
-syn cluster cCommentGroup contains=cTodo,cNote,cBadContinuation
 hi def link cNote Note
+
+" Comment IMPORTANT highlights
+syn keyword cImportant contained IMPORTANT
+hi def link cImportant IMPORTANT
+
+" Comment RESEARCH highlights
+syn keyword cResearch contained RESEARCH
+hi def link cResearch RESEARCH
+
+syn cluster cCommentGroup contains=cTodo,cNote,cImportant,cResearch,cBadContinuation
 
 " Function highlights
 syn match cCustomParen "(" contains=cParen contains=cCppParen
