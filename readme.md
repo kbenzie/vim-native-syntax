@@ -38,6 +38,8 @@ Or simply copy the files `c.vim` and `cpp.vim` into `~/.vim/after/syntax`.
 * Highlight functions declarations and invocations, link to the `Function`
   highlight group.
 * Highlight `NOTE` in comment blocks, link to the `Note` highlight group (undefined).
+* Optionally highlight operators `{}[]-+&|<>=!\/~.,;:*%&^?()` with
+  `g:native_syntax#highlight_operators=1`.
 
 ### C++
 
@@ -55,3 +57,4 @@ Or simply copy the files `c.vim` and `cpp.vim` into `~/.vim/after/syntax`.
 * (http://www.vim.org/scripts/script.php?script_id=2224)[http://www.vim.org/scripts/script.php?script_id=2224]
 * (http://www.vim.org/scripts/script.php?script_id=1640)[http://www.vim.org/scripts/script.php?script_id=1640]
 * (http://www.vim.org/scripts/script.php?script_id=3064)[http://www.vim.org/scripts/script.php?script_id=3064]
+* (http://www.vim.org/scripts/script.php?script_id=3265)[http://www.vim.org/scripts/script.php?script_id=3265]
