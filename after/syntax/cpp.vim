@@ -14,4 +14,4 @@ hi def link cppTemplateFunction Function
 " Scope highlights
 syn match cCustomScope "::"
 syn match cCustomClass "\w\+\s*::" contains=cCustomScope
-hi def link cCustomClass Statement
+hi def link cCustomClass StorageClass
